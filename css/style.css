@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+/*header*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    padding-top: .5rem;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+
+.menu li a{
+    text-decoration: none;
+    color: #0f0f0f;
+    line-height: normal;
+    font-size: 13px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+}
+
+
+/*Centro*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+}
+/*Imagen*/
+#logo{
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+/*Botones*/
+.buscador{
+    border: 1px solid #d3d6e4;
+    border-radius: 60px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    width: 584px;
+    max-width: 584px;
+}
+
+
+.botones input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid  transparent;
+    color: #0f0f0f;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.botones input:hover{
+    border: 1px solid  #a9afb4;
+}
+
+/*footer*/
+.footer{
+    background-color: #f2f2f2;
+    color: #70757a;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.sobreGoogle{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 4%;
+}
+
+.footer p{
+    padding:10px 0 10px 5%;
+    border-bottom: 1px solid #c0bfbf;
+
+}
+
+.footer .menu li a{
+    color: #70757a;
+}
+
+.footer .menu li a:hover{
+    text-decoration: underline;
+}
+
+.left{
+    justify-content: left;
+}
